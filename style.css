@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #d8dfe9;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.boxes{
+    height: 250px;
+    width: 270px;
+    font-size: small;
+    border: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    left: 320px;
+    /* transition: all 0s ease-in 0s; */
+    /* transform: scale(2); */
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #f65314;
+    background-color: #f65314;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #7cbb00;
+    background-color: #7cbb00;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #00a1f1;
+    background-color: #00a1f1;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #ffbb00;
+    background-color: #ffbb00;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    /* transition: all 0s ease-in 0s; */
+}
+.box1:hover{
+    background-color: red;
+}
+.box2:hover{
+    background-color: green;
+}
+.box3:hover{
+    background-color: blue;
+}
+.box4:hover{
+    background-color: yellow;
+}
+/*for text here we go*/ 
+.mic{
+    height: 250px;
+    width: 800px;
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    align-items: center;
+    border: 2px solid transparent;
+    position: absolute;
+    right: 160px;
+    top: 200px;
+}
+
+.txt{
+    font-size: 100px;
+    font-weight: bold;
+    color: #333399;
+    text-shadow: #333399;
+    transition: all 0s ease-out 0s;
+}
+.txt:hover{
+    color: #A6A6A6;
+}
